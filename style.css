@@ -120,3 +120,15 @@ button:hover{
 #bookmark-list li button:hover{
   background-color: #c0392b;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 95vw;
+        padding: 1rem;
+    }
+    .modal-content {
+        min-width: 0;
+        width: 90vw;
+        padding: 1rem;
+    }
+}
